@@ -12,7 +12,7 @@ TensorFlow implementation of Memorizing Normality to Detect Anomaly: Memory-augm
 ## Graph in TensorBoard
 <div align="center">
   <img src="./figures/graph.png" width="500">  
-  <p>Graph of ConAD.</p>
+  <p>Graph of MemAE.</p>
 </div>
 
 ## Problem Definition

@@ -1,7 +1,9 @@
 Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection
 =====
 
-Implementation of Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection.
+TensorFlow implementation of Memorizing Normality to Detect Anomaly: Memory-augmented Deep Autoencoder for Unsupervised Anomaly Detection.
+
+The official source code implemented with PyTorch is provided in <a href="https://github.com/donggong1/memae-anomaly-detection">donggong1/memae-anomaly-detection</a>.
 
 ## Architecture
 <div align="center">

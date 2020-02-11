@@ -26,7 +26,7 @@ The official source code implemented with PyTorch is provided in <a href="https:
 ## Results
 <div align="center">
   <img src="./figures/restoring.png" width="800">  
-  <p>Restoration result by CondAD.</p>
+  <p>Restoration result by MemAE.</p>
 </div>
 
 <div align="center">

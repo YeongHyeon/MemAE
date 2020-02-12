@@ -5,7 +5,7 @@ TensorFlow implementation of Memorizing Normality to Detect Anomaly: Memory-augm
 
 ## Architecture
 <div align="center">
-  <img src="./figures/memae.png" width="400">  
+  <img src="./figures/memae.png" width="500">  
   <p>Architecture of MemAE.</p>
 </div>
 

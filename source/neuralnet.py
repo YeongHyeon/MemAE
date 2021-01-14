@@ -2,11 +2,11 @@ import tensorflow as tf
 
 class MemAE(object):
 
-    def __init__(self, height, width, channel, leaning_rate=1e-3):
+    def __init__(self, height, width, channel, learning_rate=1e-3):
 
         print("\nInitializing Neural Network...")
         self.height, self.width, self.channel = height, width, channel
-        self.alpha, self.leaning_rate = 0.0002, leaning_rate
+        self.alpha, self.learning_rate = 0.0002, learning_rate
         self.training = False
 
         self.x = tf.compat.v1.placeholder(tf.float32, [None, self.height, self.width, self.channel])
@@ -24,7 +24,7 @@ class MemAE(object):
 
         #default: beta1=0.9, beta2=0.999
         self.optimizer = tf.compat.v1.train.AdamOptimizer( \
-            self.leaning_rate, beta1=0.9, beta2=0.999).minimize(self.loss)
+            self.learning_rate, beta1=0.9, beta2=0.999).minimize(self.loss)
 
         tf.compat.v1.summary.scalar('MemAE/mse', tf.compat.v1.reduce_sum(self.mse_r))
         tf.compat.v1.summary.scalar('MemAE/w-entropy', tf.compat.v1.reduce_sum(self.mem_etrp))

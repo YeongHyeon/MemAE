@@ -12,7 +12,7 @@ import source.tf_process as tfp
 def main():
 
     dataset = dman.Dataset(normalize=FLAGS.datnorm)
-    neuralnet = nn.MemAE(height=dataset.height, width=dataset.width, channel=dataset.channel, leaning_rate=FLAGS.lr)
+    neuralnet = nn.MemAE(height=dataset.height, width=dataset.width, channel=dataset.channel, learning_rate=FLAGS.lr)
 
     sess_config = tf.compat.v1.ConfigProto()
     sess_config.gpu_options.allow_growth = True
